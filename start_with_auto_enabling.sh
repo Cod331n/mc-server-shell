@@ -16,7 +16,7 @@ is_server_running() {
 # https://github.com/Cod331n/mc-server-shell/blob/main/start.sh
 start_server() {
     echo "Server was stopped. Enabling..."
-    # chmod +x start.sh
+    chmod +x start.sh
     # it's necessary to have permissions to start this file
     ./start.sh
 }
