@@ -1,9 +1,6 @@
 # use for sutiations, when you need to automatically enable your server to be started if it stopped.
 # this shell file should be in the same dir with server jar file, or you can cd to it by your own
 
-# change if you have another name
-JAR_FILE="paper.jar"
-
 # checking interval of server is enabled or not
 CHECK_INTERVAL=10
 
