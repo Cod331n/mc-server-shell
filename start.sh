@@ -22,4 +22,4 @@ java -Xms256M -Xmx256M \ # you should never run your server with the case that -
     -XX:MaxTenuringThreshold=1 \ # ensures that we do not promote transient data to old generation, but anything that survives 2 passes of Garbage Collection is just going to be assumed as longer-lived
     -Dusing.aikars.flags=https://mcflags.emc.gs \
     -Daikars.new.flags=true \
-    -jar papper.jar
+    -jar papper.jar # CHANGE NAME IF NEEDEED
