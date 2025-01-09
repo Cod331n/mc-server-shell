@@ -23,7 +23,7 @@ start_server() {
 }
 
 while true; do
-    if !is_server_running; then
+    if ! is_server_running; then
         start_server
     fi
     sleep $CHECK_INTERVAL
