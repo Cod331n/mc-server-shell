@@ -1,5 +1,4 @@
-# restart time period in seconds
-RESTART_PERIOD=3600
+RESTART_PERIOD=3600 # restart time period in seconds
 
 is_server_running() {
     if screen -list | grep -q minecraft; then
